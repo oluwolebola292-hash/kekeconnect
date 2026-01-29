@@ -1,0 +1,21 @@
+{
+  "name": "keke-rider-tracker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 8080",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 8080"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.3"
+  }
+}
